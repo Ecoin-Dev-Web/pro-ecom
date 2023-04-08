@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+.header{
+    width: 100%;
+    padding: 7px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.menu{
+    display: flex;
+    column-gap: 3%;
+    align-items: center;
+    flex-basis: calc(100% - 80%);
+    position: relative;
+    left: 20px;
+}
+.menu:hover{
+    cursor: pointer;
+}
+.menu .logo{
+font-size: 24px;
+border-radius: 50%;
+padding: 10px;
+}
+.menu .logo:hover{
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+.menu img{
+    width: 60%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    justify-content: center;
+    position: relative;
+    left: 53px;
+    ;
+}
+.search input{
+    width: 80%;
+    padding: 13px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    border: none;
+}
+.search input:hover{
+    background-color: #e2dfdf;
+}
+
+.search span{
+    position: relative;
+    right: 8%;
+    font-size: 24PX;
+    color: rgba(0,0,0,.54)
+}
+.search span:hover{
+    cursor: pointer;
+}
+.icon{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-basis: 8%;
+    column-gap: 9PX;
+    left: 233PX;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.icon .sh{
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon .sh:hover{
+    background-color: #f5f5f5;
+}
+.icon .ajt{
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon .ajt:hover{
+    background-color: #f5f5f5;
+}
+.icon .per{
+    font-size: 24px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon .per:hover{
+    background-color: #f5f5f5;
+}

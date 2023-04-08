@@ -1,0 +1,205 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.director{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+    padding: 16PX 25px;
+    transition: 2s;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0 2px 2px #bbb!important;
+    transform: translatez(200px) ;
+    transform-style: preserve-3d;
+    
+
+}
+/* .card img:hover{
+    transform: scale(1.1,1.1);
+    
+} */
+.card img{
+    width: 100%;
+    height: 65%;
+    border-radius: 5PX;
+
+}
+.descrip{
+    height: calc(100% - 80%);
+    padding: 5px;
+}
+.card p{
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.card strong{
+    color: red;
+}
+.card:hover{
+    cursor: pointer;
+}
+.arrow span{
+    position: relative;
+    top: 135PX;
+    font-size: 26px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0 4px 6px #bbb!important;
+}
+.arrow span:hover{
+    cursor: pointer;
+    background-color: #e4e1e1;
+}
+.card .border{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    justify-content: space-between;
+    padding: 3px;
+    border-top: 1px solid #dddddd;
+}
+.border .right{
+    position: relative;
+    display: flex;
+    column-gap: 15px;
+    right: 77px;
+}
+
+.left span{
+    position: relative;
+    top: 2PX;
+    left: 0px;
+    font-size: 19px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.left span:hover{
+    background-color: #f0eeee;
+}
+.right span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    left: 75px;
+    top: 0px;
+    
+}
+
+.right .buble{
+    /* display: flex; */
+    position: relative;
+    /* align-items: center; */
+    left: 97px;
+    top: -8px;
+    border-radius: 45%;
+    background-color: red;
+    font-size: 15px;
+    padding: 7PX 4PX;
+    color: #fff;
+}
+
+.stores{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15px;
+    padding: 20PX 25px
+}
+
+.square{
+    width: 25%;
+    height: 400px;
+    background-color: #fffbf4;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 2px 2px #bbb!important;
+}
+.square:hover{
+    cursor: pointer;
+}
+.backtwo{
+    width: 100%;
+    height: 60%;
+}
+.backtwo img{
+    width: 100%;
+    height: 100%;
+}
+.backtwo .bagr img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 176px;
+    left: 93px;
+}
+.lieu{
+height: 25%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.lieu section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 7px;
+    position: relative;
+    top: 3px;
+}
+.lieu h4{
+    font-size: 19px;
+}
+.lieu .lu{
+    font-size: 18px;
+    color: orangered;
+}
+.lieu p{
+    color: rgba(0, 0, 0, .54);
+    padding: 0px 13px;
+}
+.procur{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    font-size: 18px;
+    border-top: 1px solid #dddddd;
+    color: #3b8bef;
+    }
+   .lieu section p{
+        color: orangered;
+    }
+    .flash .imo{
+        color: rgb(5, 192, 5);
+    }
+    .immob{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        position: relative;
+        left: 8px;
+        gap: 8px;
+        padding: 16PX 25px;
+        
+    }
